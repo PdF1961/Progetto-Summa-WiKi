@@ -14,15 +14,15 @@ status: developing
 ## Summary
 - Pages scanned: 70
 - Issues found: 9
-- Auto-fixed: 7
-- Needs review: 2
+- Auto-fixed: 8
+- Needs review: 1
 
 ## Orphan Pages
 - [[Claude SEO]]: no real inbound links (only self-referenced from its own "Ecosystem" section). Content was about an unrelated SEO Claude Code plugin (`AgriciDaniel/claude-seo`) — didn't fit this vault's two actual domains. Confirmed cross-vault contamination. **Fixed** — `Wiki/entities/Claude SEO.md` deleted; no other page referenced it.
 
 ## Dead Links
 - [[Principi non Negoziabili]]: referenced in `Wiki/entities/San Tommaso d'Aquino.md` (line 50) but the actual page is [[principi-non-negoziabili-de-regimine]]. Real broken link — filename mismatch, not a placeholder. **Fixed** — link updated to `[[principi-non-negoziabili-de-regimine]]`.
-- [[cherry-picks]]: referenced 15 times across `Wiki/sources/claude-obsidian-ecosystem-research.md`, `Wiki/comparisons/claude-obsidian-ecosystem.md`, and 5 entity pages (Ar9av, ballred, Claudian-YishenTu, kepano, Nexus, rvk7895), described as "prioritized feature backlog" / "action items." Page was never created. Suggest: create `Wiki/cherry-picks.md` (or equivalent) with the numbered items these pages already link to by heading anchor (e.g. `#4. Delta Tracking Manifest`), or remove the links if the backlog was abandoned.
+- [[cherry-picks]]: referenced 15 times across `Wiki/sources/claude-obsidian-ecosystem-research.md`, `Wiki/comparisons/claude-obsidian-ecosystem.md`, and 5 entity pages (Ar9av, ballred, kepano, Nexus, rvk7895). **Fixed** — created `Wiki/concepts/cherry-picks.md` with all 13 numbered sections matching the existing heading anchors, sourced from each linking page's "Key Innovations"/feature-matrix content. Also fixed one pre-existing anchor mismatch in `kepano-obsidian-skills.md` (`#9. Multi-Agent Compatibility` → `#9. Multi-Agent Compatibility (Cursor, Windsurf, Codex)`, matching the heading text used elsewhere). Note: `Claudian-YishenTu.md` has `cherry-picks` in its `related:` frontmatter but no in-body anchor link — no action needed there.
 - [[Wiki Map]]: referenced from `index.md`, `getting-started.md`, `concepts/_index.md` as "visual Fibonacci graph of all wiki pages." **Fixed** — created `Wiki/Wiki Map.md` (meta page) embedding a new `Wiki/canvases/wiki-map.canvas` golden-angle spiral layout of all 52 non-meta content pages (colored by type), with regeneration steps documented on the page.
 - [[dashboard.base]]: referenced and embedded from `Wiki/meta/dashboard.md` (Obsidian Base file). Never created. Suggest: create the `.base` file or drop the embed until it exists.
 - Template placeholder links in empty stub indices (`books/_index.md`, `gaps/_index.md`, `goals/_index.md`, `journal/_index.md`, `lessons/_index.md`, `papers/_index.md`, `thesis/_index.md`): `[[Titolo Libro]]`, `[[Fonte A]]`, `[[Fonte B]]`, `[[Titolo]]`, `[[Titolo Paper]]`, `[[Lezione N - Titolo]]`, `[[YYYY-MM-DD-slug]]`, `[[Sintesi del Campo]]`. These are template examples, not real dead links — no action needed unless the sections get populated.
