@@ -47,7 +47,7 @@ Dominican friar, theologian, and philosopher; central authority of Catholic phil
 | De malo | *Quaestiones disputatae de malo* | .raw/ present ("Sul Male"), full ingest pending |
 | De ver. | *Quaestiones disputatae de veritate* | [[sulla-verita-de-veritate]] — bibliographic entry only; file is an unreadable image-scan (no OCR, exceeds size limit) |
 | — | Opuscoli | .raw/ present, full ingest pending |
-| — | *De regno* / political opuscula | see [[Principi non Negoziabili]] (excerpted/curated anthology) |
+| — | *De regno* / political opuscula | see [[principi-non-negoziabili-de-regimine]] (excerpted/curated anthology) |
 
 ## Natural law and ethics (per [[god-philosophy-universities]] ch. 10)
 

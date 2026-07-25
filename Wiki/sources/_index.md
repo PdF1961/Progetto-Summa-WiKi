@@ -42,7 +42,7 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 ## Books — Tomismo (2026-07-25 ingest)
 
 - [[essenza-e-attualita-del-tomismo]] — Garrigou-Lagrange, act/potency doctrine, XXIV Tesi (full read)
-- [[la-sintesi-tomistica]] — Garrigou-Lagrange, full systematic synthesis (Intro + Parte I + Parte VIII cap. I read; Parti II-VII flagged)
+- [[la-sintesi-tomistica]] — Garrigou-Lagrange, full systematic synthesis (now read in full across all 8 Parts, expanded same day; only Parte Ottava chs. II, III, V remain)
 - [[dopo-la-virtu]] — MacIntyre, *After Virtue* (prefaces + ch.14 read; rest flagged)
 - [[god-philosophy-universities]] — MacIntyre, chs. 9-11 on Aquinas read in full
 - [[mondin-dizionario-tommaso]] — Mondin's Thomistic dictionary (Accidente/Essenza/Persona entries read; ~36 more flagged)
