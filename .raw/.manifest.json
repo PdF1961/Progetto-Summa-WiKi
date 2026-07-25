@@ -1,0 +1,200 @@
+{
+  "sources": {
+    ".raw/R. Garrigou-Lagrange - Essenza e attualità del Tomismo.epub": {
+      "hash": "dc7d88044a4880dc1e1beab084f2e8d0",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/essenza-e-attualita-del-tomismo.md",
+        "wiki/entities/Réginald Garrigou-Lagrange.md",
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/concepts/Tomismo.md",
+        "wiki/concepts/Dottrina di Atto e Potenza.md",
+        "wiki/concepts/XXIV Tesi Tomiste.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/R. Garrigou-Lagrange - La Sintesi Tomistica.epub": {
+      "hash": "d92708fd94a1e0959c2b6eaa4182a2c4",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/la-sintesi-tomistica.md",
+        "wiki/concepts/Le Cinque Vie.md",
+        "wiki/concepts/Grazia Efficace e Premozione Fisica.md",
+        "wiki/concepts/La Santissima Trinità (Sintesi Tomistica).md",
+        "wiki/concepts/Angeli e Anima Umana (Sintesi Tomistica).md",
+        "wiki/concepts/Incarnazione, Unione Ipostatica e Mariologia.md",
+        "wiki/concepts/I Sacramenti nella Sintesi Tomistica.md",
+        "wiki/concepts/Teologia Morale nella Sintesi Tomistica.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/XXIV Tesi Tomiste.md",
+        "wiki/concepts/Dottrina di Atto e Potenza.md",
+        "wiki/entities/Réginald Garrigou-Lagrange.md",
+        "wiki/concepts/Gerarchia degli Esseri e Analogia.md",
+        "wiki/concepts/Persona (Tomismo).md",
+        "wiki/comparisons/Il Cardine della Metafisica Tomista.md"
+      ],
+      "note": "2026-07-25 same-day follow-up deep-dive read Parti II-VII in full (previously only Intro+I+VIII.I read). Only Parte Ottava chs. II, III, V remain unread."
+    },
+    ".raw/A. MacIntyre - Dopo la Virtù.pdf": {
+      "hash": "0f2badc88f086da7c60ff38b48e55304",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/dopo-la-virtu.md",
+        "wiki/entities/Alasdair MacIntyre.md",
+        "wiki/concepts/Pratica e Beni Interni.md",
+        "wiki/concepts/Unità Narrativa della Vita e Tradizione.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/A. MacIntyre - God, Philosophy, Universities.pdf": {
+      "hash": "9ffd95543bf68167b435a2474050e3f4",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/god-philosophy-universities.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/entities/Alasdair MacIntyre.md"
+      ]
+    },
+    ".raw/B. Mondin - Dizionario Enciclopedico del Pensiero di S.Tommaso d'Aquino.pdf": {
+      "hash": "00ba3339d940ffa0006fad30fca9399c",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/mondin-dizionario-tommaso.md",
+        "wiki/entities/Battista Mondin.md",
+        "wiki/concepts/Persona (Tomismo).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Dottrina di Atto e Potenza.md",
+        "wiki/entities/San Tommaso d'Aquino.md"
+      ]
+    },
+    ".raw/E. Gilson - Le Thomisme. Introduction au Système de Saint Thomas D'aquin.pdf": {
+      "hash": "b1ac2fa99ae980148ea0777b86a1ddde",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/le-thomisme-gilson.md",
+        "wiki/entities/Étienne Gilson.md",
+        "wiki/concepts/Gerarchia degli Esseri e Analogia.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/concepts/Tomismo.md"
+      ]
+    },
+    ".raw/S. Tommaso d'Aquino - Opuscoli.pdf": {
+      "hash": "ef8197f75ab9d1126bcfc220db9e1862",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/opuscoli-tommaso.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md"
+      ]
+    },
+    ".raw/S. Tommaso d'Aquino - Principi non Negoziabili sulla Società e sulla Politica.epub": {
+      "hash": "842c760415ee8795c97158888ca78189",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/principi-non-negoziabili-de-regimine.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md"
+      ],
+      "note": "Duplicate copy also exists as .raw/S. Tommaso d'Aquino - Principi non Negoziabili sulla Società e sulla Politica.pdf (same text, not separately ingested)."
+    },
+    ".raw/S. Tommaso d'Aquino - Sul Male.pdf": {
+      "hash": "fd6e108db2da22fefca8fc86a27e7b37",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/sul-male-de-malo.md",
+        "wiki/concepts/Il Male come Privazione.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/concepts/Dottrina di Atto e Potenza.md"
+      ]
+    },
+    ".raw/S. Tommaso d'Aquino - Somma Teologica.pdf": {
+      "hash": "b397be48d7fe853701b5891a070ae54a",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/somma-teologica-struttura.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md"
+      ],
+      "note": "Structural/bibliographic entry only — 5,318 pages, structure verified from file's own master index (pp. 1-40), body text not read."
+    },
+    ".raw/S. Tommaso d'Aquino. - Somma contro i Gentili [ocr] [1975].pdf": {
+      "hash": "862bd80ba7669b677b8ca03711a22c97",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/somma-contro-i-gentili-struttura.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md"
+      ],
+      "note": "Structural entry — 1,374 pages; Centi's introduction (pp. 9-14+) read directly, body text (4 books) not read."
+    },
+    ".raw/S. Tommaso d'Aquino - Sulla Verità.pdf": {
+      "hash": "ef272a7dcb7dedc96875d9d7ab692214",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/sulla-verita-de-veritate.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/San Tommaso d'Aquino.md"
+      ],
+      "note": "UNREADABLE with current tools: pure image scan, no OCR text layer (pdftotext returns 0 chars). Page entry is bibliographic-only, built from general scholarship, not verified against this file's actual content."
+    },
+    ".raw/Dizionario Interdisciplinare di Scienza e Fede (NP).pdf": {
+      "hash": "6a3bb520cc859687273833f24562c01a",
+      "ingested_at": "2026-07-25",
+      "pages_created": [
+        "wiki/sources/dizionario-interdisciplinare-scienza-fede.md"
+      ],
+      "pages_updated": [],
+      "note": "UNREADABLE with current tools: 668MB image-only scan (Print-to-PDF from XPS), no OCR text layer, exceeds 100MB image-viewing tool limit. Page entry is bibliographic-only placeholder."
+    }
+  },
+  "address_map": {
+    "wiki/sources/essenza-e-attualita-del-tomismo.md": "c-000017",
+    "wiki/entities/Réginald Garrigou-Lagrange.md": "c-000018",
+    "wiki/entities/San Tommaso d'Aquino.md": "c-000019",
+    "wiki/concepts/Tomismo.md": "c-000020",
+    "wiki/concepts/Dottrina di Atto e Potenza.md": "c-000021",
+    "wiki/concepts/XXIV Tesi Tomiste.md": "c-000022",
+    "wiki/sources/la-sintesi-tomistica.md": "c-000023",
+    "wiki/entities/Alasdair MacIntyre.md": "c-000024",
+    "wiki/sources/dopo-la-virtu.md": "c-000025",
+    "wiki/concepts/Pratica e Beni Interni.md": "c-000026",
+    "wiki/concepts/Unità Narrativa della Vita e Tradizione.md": "c-000027",
+    "wiki/sources/god-philosophy-universities.md": "c-000028",
+    "wiki/sources/mondin-dizionario-tommaso.md": "c-000029",
+    "wiki/concepts/Persona (Tomismo).md": "c-000030",
+    "wiki/entities/Étienne Gilson.md": "c-000031",
+    "wiki/sources/le-thomisme-gilson.md": "c-000032",
+    "wiki/concepts/Gerarchia degli Esseri e Analogia.md": "c-000033",
+    "wiki/sources/opuscoli-tommaso.md": "c-000034",
+    "wiki/sources/principi-non-negoziabili-de-regimine.md": "c-000035",
+    "wiki/concepts/Il Male come Privazione.md": "c-000036",
+    "wiki/sources/sul-male-de-malo.md": "c-000037",
+    "wiki/sources/somma-teologica-struttura.md": "c-000038",
+    "wiki/sources/somma-contro-i-gentili-struttura.md": "c-000039",
+    "wiki/sources/sulla-verita-de-veritate.md": "c-000040",
+    "wiki/sources/dizionario-interdisciplinare-scienza-fede.md": "c-000041",
+    "wiki/entities/Battista Mondin.md": "c-000042",
+    "wiki/comparisons/Il Cardine della Metafisica Tomista.md": "c-000043",
+    "wiki/concepts/Le Cinque Vie.md": "c-000044",
+    "wiki/concepts/Grazia Efficace e Premozione Fisica.md": "c-000045",
+    "_unused": "c-000046 (allocated during Parti II-VII deep-dive, never assigned to a page)",
+    "wiki/concepts/La Santissima Trinità (Sintesi Tomistica).md": "c-000047",
+    "wiki/concepts/Angeli e Anima Umana (Sintesi Tomistica).md": "c-000048",
+    "wiki/concepts/Incarnazione, Unione Ipostatica e Mariologia.md": "c-000049",
+    "wiki/concepts/I Sacramenti nella Sintesi Tomistica.md": "c-000050",
+    "wiki/concepts/Teologia Morale nella Sintesi Tomistica.md": "c-000051"
+  }
+}

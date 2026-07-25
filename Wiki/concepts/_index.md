@@ -38,4 +38,20 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ## Domain Concepts
 
-<!-- Aggiungi qui i concetti specifici del dominio di questo wiki -->
+### Tomismo (2026-07-25 ingest, expanded same day with a full La Sintesi Tomistica deep-dive)
+
+- [[Tomismo]] — essence and characteristics of Thomism (realism, intellectualism, theocentrism)
+- [[Dottrina di Atto e Potenza]] — potency/act, essence/esse, the metaphysical engine of the system
+- [[XXIV Tesi Tomiste]] — the 1914 doctrinal summary and its 1925 Congress applications
+- [[Persona (Tomismo)]] — the concept of person as a Christian philosophical invention
+- [[Gerarchia degli Esseri e Analogia]] — Gilson's being/hierarchy/analogy synthesis + Garrigou-Lagrange's *formaliter eminenter*
+- [[Il Male come Privazione]] — the privation theory of evil (*De malo* Q1)
+- [[Pratica e Beni Interni]] — MacIntyre: practices and internal vs. external goods
+- [[Unità Narrativa della Vita e Tradizione]] — MacIntyre: narrative unity of a life, tradition-constituted rationality
+- [[Le Cinque Vie]] — the five ways, the "proper cause" argument
+- [[Grazia Efficace e Premozione Fisica]] — scientia media, sufficient/efficacious grace, physical premotion, predestination
+- [[La Santissima Trinità (Sintesi Tomistica)]] — processions, relations, persons, notional acts, indwelling
+- [[Angeli e Anima Umana (Sintesi Tomistica)]] — angelology and philosophical psychology
+- [[Incarnazione, Unione Ipostatica e Mariologia]] — Christology and Mariology
+- [[I Sacramenti nella Sintesi Tomistica]] — transubstantiation, the Mass, attrition/contrition
+- [[Teologia Morale nella Sintesi Tomistica]] — beatitude, virtues, law, grace, perfection, charisms

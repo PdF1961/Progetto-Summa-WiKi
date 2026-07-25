@@ -26,6 +26,14 @@ All entity pages — people, organizations, products, and tools.
 
 - [[Andrej Karpathy]] — AI researcher, educator; originated the LLM Wiki pattern
 
+### Tomismo (2026-07-25 ingest)
+
+- [[San Tommaso d'Aquino]] — hub entity for all Aquinas primary/secondary sources
+- [[Réginald Garrigou-Lagrange]] — Dominican Thomist, act/potency doctrine
+- [[Étienne Gilson]] — historian of medieval philosophy, being/hierarchy/analogy synthesis
+- [[Battista Mondin]] — author of the Thomistic encyclopedic dictionary
+- [[Alasdair MacIntyre]] — virtue ethicist, later Thomist; *After Virtue*, *God, Philosophy, Universities*
+
 ---
 
 ## Organizations
