@@ -11,10 +11,14 @@
             "id": "511e362e88dc4e50",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "index"
             }
           }
         ]
@@ -201,7 +205,9 @@
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-kanban:Crea nuova bacheca": false
+      "obsidian-kanban:Crea nuova bacheca": false,
+      "marp-slides:Show Slide Preview": false,
+      "slides-extended:Show slide preview": false
     }
   },
   "active": "511e362e88dc4e50",
