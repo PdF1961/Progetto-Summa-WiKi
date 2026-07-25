@@ -14,8 +14,8 @@ status: developing
 ## Summary
 - Pages scanned: 70
 - Issues found: 9
-- Auto-fixed: 6
-- Needs review: 3
+- Auto-fixed: 7
+- Needs review: 2
 
 ## Orphan Pages
 - [[Claude SEO]]: no real inbound links (only self-referenced from its own "Ecosystem" section). Content was about an unrelated SEO Claude Code plugin (`AgriciDaniel/claude-seo`) — didn't fit this vault's two actual domains. Confirmed cross-vault contamination. **Fixed** — `Wiki/entities/Claude SEO.md` deleted; no other page referenced it.
@@ -23,7 +23,7 @@ status: developing
 ## Dead Links
 - [[Principi non Negoziabili]]: referenced in `Wiki/entities/San Tommaso d'Aquino.md` (line 50) but the actual page is [[principi-non-negoziabili-de-regimine]]. Real broken link — filename mismatch, not a placeholder. **Fixed** — link updated to `[[principi-non-negoziabili-de-regimine]]`.
 - [[cherry-picks]]: referenced 15 times across `Wiki/sources/claude-obsidian-ecosystem-research.md`, `Wiki/comparisons/claude-obsidian-ecosystem.md`, and 5 entity pages (Ar9av, ballred, Claudian-YishenTu, kepano, Nexus, rvk7895), described as "prioritized feature backlog" / "action items." Page was never created. Suggest: create `Wiki/cherry-picks.md` (or equivalent) with the numbered items these pages already link to by heading anchor (e.g. `#4. Delta Tracking Manifest`), or remove the links if the backlog was abandoned.
-- [[Wiki Map]]: referenced from `index.md`, `getting-started.md`, `concepts/_index.md` as "visual Fibonacci graph of all wiki pages." Never created. Suggest: create `Wiki Map.md` (or a `.canvas` file) or remove the references — note `Wiki Map.md` is in the address/tiling exclusion list, so it's an expected meta page, just missing.
+- [[Wiki Map]]: referenced from `index.md`, `getting-started.md`, `concepts/_index.md` as "visual Fibonacci graph of all wiki pages." **Fixed** — created `Wiki/Wiki Map.md` (meta page) embedding a new `Wiki/canvases/wiki-map.canvas` golden-angle spiral layout of all 52 non-meta content pages (colored by type), with regeneration steps documented on the page.
 - [[dashboard.base]]: referenced and embedded from `Wiki/meta/dashboard.md` (Obsidian Base file). Never created. Suggest: create the `.base` file or drop the embed until it exists.
 - Template placeholder links in empty stub indices (`books/_index.md`, `gaps/_index.md`, `goals/_index.md`, `journal/_index.md`, `lessons/_index.md`, `papers/_index.md`, `thesis/_index.md`): `[[Titolo Libro]]`, `[[Fonte A]]`, `[[Fonte B]]`, `[[Titolo]]`, `[[Titolo Paper]]`, `[[Lezione N - Titolo]]`, `[[YYYY-MM-DD-slug]]`, `[[Sintesi del Campo]]`. These are template examples, not real dead links — no action needed unless the sections get populated.
 - `[[Foo]]` / `[[notes/Foo]]` in `Wiki/concepts/DragonScale Memory.md` and `[[Three laws of motion]]` in `Wiki/concepts/Persistent Wiki Artifact.md` are illustrative examples inside spec prose, not real links — no action needed.
