@@ -58,8 +58,10 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 - [[somma-contro-i-gentili-struttura]] — structural entry; Centi's introduction read (1,374 pp.); 2 deep-ingest batches complete (2026-07-26)
 - [[contra-gentiles-libro-primo]] — Libro I ch.13: Aristotle's two proofs of God's existence from motion (deep-ingest)
 - [[contra-gentiles-libro-secondo]] — Libro II ch.56-59, 79: soul as substantial form, anti-Averroist polemic, immortality (deep-ingest)
-- [[sulla-verita-de-veritate]] — bibliographic entry only; file unreadable (image scan, no OCR)
-- [[dizionario-interdisciplinare-scienza-fede]] — bibliographic entry only; file unreadable (668MB image scan)
+- [[sulla-verita-de-veritate]] — structural entry; readable via OCR after all, deep-ingest complete (2026-07-26)
+- [[de-veritate-qq-1-16-17-24]] — qq.1, 16, 17, 24: truth's triple definition, synderesis, conscience, free will (deep-ingest, OCR)
+- [[dizionario-interdisciplinare-scienza-fede]] — structural entry; readable via OCR after all, deep-ingest complete (2026-07-26)
+- [[dizionario-anima-finalita-leggi-naturali]] — voci Anima, Finalità, Leggi Naturali (deep-ingest, OCR)
 
 ---
 

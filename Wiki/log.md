@@ -21,6 +21,18 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## 2026-07-26 | OCR ingest | De Veritate + Dizionario Interdisciplinare (final front of the 4-text plan)
+
+- Sources: `.raw/S. Tommaso d'Aquino - Sulla Verità.pdf` (1,152pp, large-format scan) and `.raw/Dizionario Interdisciplinare di Scienza e Fede (NP).pdf` (2,339pp, 668MB print-to-PDF) — both previously logged as fully unreadable (no text layer, exceed the 100MB direct-viewing limit). This closes the last remaining front of the four-text paced ingestion plan from 2026-07-25/26.
+- Method: PyMuPDF (`fitz`) in-process rasterization instead of repeated `pdftoppm` subprocess calls — ~0.35s/page on De Veritate's oversized scan pages, ~0.1s/page on the Dizionario's normal A4 pages (vs. ~5s/page for `pdftoppm` on either) — then `tesseract -l ita+lat` OCR. No embedded PDF outline/bookmarks in either file (`doc.get_toc()` empty); question/entry boundaries found via sparse-sample content search anchored on proportional estimates, and (for the Dizionario) a genuine front-matter index plus running headers that name the current entry directly.
+- Discovery: De Veritate is a parallel Latin-Italian critical edition (Fernando Fiorentino, 2011) — an initial low-resolution OCR pass misread it as Latin-only because two-column layouts interleave into garbled mixed lines at low resolution; re-rendering at 3x zoom and using `tesseract --psm 6` resolved this for the passages quoted.
+- Pages created: [[de-veritate-qq-1-16-17-24]] (c-000061: qq.1 triple definition of truth, 16 synderesis, 17 conscience, 24 free will), [[dizionario-anima-finalita-leggi-naturali]] (c-000062: voci Anima, Finalità, Leggi Naturali)
+- Pages updated: [[sulla-verita-de-veritate]] and [[dizionario-interdisciplinare-scienza-fede]] (both flipped from "unreadable" to structural-entry-plus-deep-ingest), [[essenza-e-attualita-del-tomismo]] (De Veritate q.1's three-way truth-definition taxonomy), [[god-philosophy-universities]] (De Veritate q.16's fuller synderesis treatment), [[sul-male-de-malo]] (cross-link only), [[somma-teologica-trattato-legge]] and [[Angeli e Anima Umana (Sintesi Tomistica)]] (independent third-source convergence — the Dizionario cites the *same* Contra Gentiles/Summa passages this vault ingested from primary text earlier the same day), [[Gerarchia degli Esseri e Analogia]] (analogy of proportionality applied to divine legislation)
+- Key insight: the Dizionario's ANIMA and LEGGI NATURALI entries, written independently by specialist contributors in 2002 with no connection to this vault, cite the *exact same* primary-text passages (Contra Gentiles II c.56, S.Th. I q.51 a.1, S.Th. I-II qq.93-94) this vault had already ingested directly from the primary sources the same day — strong independent confirmation that this session's primary-text batches located the genuinely load-bearing passages, not incidental ones.
+- Still open: 25 of 29 De Veritate questions, ~106 of 109 Dizionario thematic entries plus all of Parte Seconda/Terza — see each new page's "What remains unread" section.
+
+---
+
 ## 2026-07-26 | lint pass | post-6-batch health check
 
 - Trigger: routine lint after this session's 6 new deep-ingest pages (see the two batch-ingest entries below), per the "every 10-15 ingests" cadence in the vault's CLAUDE.md.

@@ -18,27 +18,27 @@ Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
 
-2026-07-26 — completed batches 5-6: deep-ingest of *Summa contro i Gentili* Libro I (ch.13, God's existence) and Libro II (ch.56-59, 79, the soul), same-day follow-up to the 4-batch Somma Teologica plan completed earlier today.
+2026-07-26 — completed the **entire four-text paced ingestion plan** agreed 2026-07-25: Somma Teologica (4 batches), Summa contro i Gentili (2 batches), and now De Veritate + Dizionario Interdisciplinare via OCR (the two sources previously logged as fully unreadable).
 
 ## Key Recent Facts
 
-- **Two primary Aquinas texts now have real deep-ingests beyond structural placeholders**: Somma Teologica (4 batches: [[somma-teologica-de-deo-uno]], [[somma-teologica-trinita]], [[somma-teologica-trattato-legge]], [[somma-teologica-sacramenti]]) and Summa contro i Gentili (2 batches: [[contra-gentiles-libro-primo]], [[contra-gentiles-libro-secondo]]). Every doctrine previously known only via Garrigou-Lagrange's secondary synthesis now has a direct primary-text citation, with no divergence found anywhere checked.
-- **Two different page-mapping methods needed, by source**: the Summa Teologica PDF is clean digital text — full extract + Python regex on each question's `ARGOMENTO N` header gives an exact page-index cheaply. The Contra Gentiles PDF is genuine scan-OCR with real error rates ("CAPITOLO" garbles to "CaritoLo," accents render as replacement chars) — clean regex header search is unreliable there; use targeted content-keyword search instead (works well, e.g. "motore immobile", "Averroè").
-- **Trap** (Summa Teologica only): question numbers reset at each Part (I, I-II, II-II, III) — same numbers can point to completely different treatises. Anchor to the correct Part's page range first.
-- Both Summa PDFs are **parallel Latin-Italian editions** (Latin prooemium before the Italian translation on the Summa Teologica; Latin scripture/Aristotle citations throughout the Contra Gentiles) — useful for future close Latin readings.
+- **All four originally-flagged large sources now have real deep-ingests**, not just structural placeholders: [[somma-teologica-struttura]] (4 batches), [[somma-contro-i-gentili-struttura]] (2 batches), [[sulla-verita-de-veritate]] (1 batch, via OCR), [[dizionario-interdisciplinare-scienza-fede]] (1 batch, via OCR). Every doctrine previously known only via secondary synthesis now has a direct primary-text citation somewhere in the vault.
+- **OCR is fast enough for real work here**: PyMuPDF (`fitz`) in-process rasterization beats `pdftoppm` subprocess calls by ~10-50x (~0.1-0.35s/page vs ~5s/page), making even 1,000+ page scanned/print-to-PDF files practical to search and read via `tesseract -l ita+lat`. Neither De Veritate nor the Dizionario has embedded PDF bookmarks (`doc.get_toc()` returns empty in both) — navigate via sparse-sample content search anchored on proportional estimates, or (Dizionario only) the book's own front-matter index plus running headers that name the current entry.
+- **De Veritate is a parallel Latin-Italian edition** (Fernando Fiorentino, 2011) — a low-res OCR pass first misread it as Latin-only because two-column layouts interleave into garbled lines at low resolution; 3x zoom + `tesseract --psm 6` fixed this.
+- **Independent convergence discovered**: the Dizionario's ANIMA and LEGGI NATURALI entries (written in 2002, no connection to this vault) cite the exact same primary-text passages (*Contra Gentiles* II c.56, *S.Th.* I q.51 a.1, *S.Th.* I-II qq.93-94) this vault ingested directly from primary sources the same day — strong independent confirmation the right passages were located.
+- **Question numbers reset per Summa Teologica Part** (I, I-II, II-II, III) — a real trap hit and documented in [[somma-teologica-trattato-legge]].
 - Vault's actual domain is **Thomism / Aquinas studies** (the "Modello" template's placeholder demo content is still present alongside — ignore it for domain questions).
-- [[Dottrina di Atto e Potenza]] (real distinction essence/esse) is the load-bearing concept — nearly every other page links to it.
-- [[sulla-verita-de-veritate]] and [[dizionario-interdisciplinare-scienza-fede]] remain **unreadable** with current extraction tools (image scans, no text layer) — but a verified working OCR pipeline exists (`pdftoppm` + `tesseract -l ita+lat`, tested 2026-07-25 on both files with high-quality results; recorded in this session's Claude Code memory, not a vault page), not yet applied. This is the natural next front if continuing the paced ingestion plan.
+- [[Dottrina di Atto e Potenza]] (real distinction essence/esse) remains the load-bearing concept — nearly every other page links to it.
 
 ## Recent Changes
 
-- 2026-07-26 (2nd session): created [[contra-gentiles-libro-primo]] and [[contra-gentiles-libro-secondo]] (addresses c-000059, c-000060); updated [[somma-contro-i-gentili-struttura]], [[Le Cinque Vie]], [[god-philosophy-universities]], [[Angeli e Anima Umana (Sintesi Tomistica)]] with primary-text cross-links.
-- 2026-07-26 (1st session): created 4 Somma Teologica deep-ingest pages (c-000055 to c-000058); updated [[somma-teologica-struttura]], [[Le Cinque Vie]], [[Il Cardine della Metafisica Tomista]], [[La Santissima Trinità (Sintesi Tomistica)]], [[god-philosophy-universities]], [[I Sacramenti nella Sintesi Tomistica]].
+- 2026-07-26 (3rd session): OCR-ingested [[de-veritate-qq-1-16-17-24]] (c-000061) and [[dizionario-anima-finalita-leggi-naturali]] (c-000062); flipped both source placeholders from "unreadable" to structural-entry-plus-deep-ingest; cross-linked into [[essenza-e-attualita-del-tomismo]], [[god-philosophy-universities]], [[somma-teologica-trattato-legge]], [[Angeli e Anima Umana (Sintesi Tomistica)]], [[Gerarchia degli Esseri e Analogia]].
+- 2026-07-26 (2nd session): lint pass — fixed address-counter/manifest desync, one dead link, a stale Wiki Map canvas (7 missing pages), 8 stale `updated:` fields. Full report: [[lint-report-2026-07-26]].
+- 2026-07-26 (1st session): created 6 Somma Teologica/Contra Gentiles deep-ingest pages (c-000055 to c-000060).
 - 2026-07-25: created 13 source pages, 6 entity pages, 8 concept pages, 1 comparison page from a batch ingest; same-day follow-up read [[la-sintesi-tomistica]] Parti II-VII in full, adding 7 concept pages.
 
 ## Active Threads
 
-- Next address is **c-000061**.
-- Within all 6 Somma batches (Teologica + Contra Gentiles): many chapters/questions are structurally-confirmed-but-not-read-article-by-article — see each page's "What remains unread" section. Highest priority if continuing Contra Gentiles: Libro II chs.60-78 (the fuller anti-Averroist polemic, ch.59 is only its opening).
-- Other open fronts: (1) apply the verified OCR pipeline to *De Veritate* and the *Dizionario Interdisciplinare* (both currently unreadable placeholders); (2) [[sul-male-de-malo]] Qq. 7-16 plus full text for Qq. 1-6; (3) [[le-thomisme-gilson]] chs. II-XIV; (4) most of [[mondin-dizionario-tommaso]] (~36 of 39 entries); (5) Tertia Pars qq.1-59 (the Incarnation itself) not yet deep-ingested from the Summa Teologica primary text.
+- Next address is **c-000063**.
+- Highest-priority remaining targets, in order: (1) De Veritate q.11 (*De Magistro*, pairs with [[god-philosophy-universities]] ch.11); (2) the Dizionario's ANALOGIA entry (cross-referenced twice by material read this session, ties directly to [[Gerarchia degli Esseri e Analogia]]) and its Parte Seconda author-entry on Aquinas himself, if one exists; (3) Tertia Pars qq.1-59 (the Incarnation itself) — not yet deep-ingested from the Summa Teologica primary text at all; (4) [[sul-male-de-malo]] Qq. 7-16 plus full text for Qq. 1-6; (5) [[le-thomisme-gilson]] chs. II-XIV; (6) most of [[mondin-dizionario-tommaso]] (~36 of 39 entries).
 - No page yet for Jacques Maritain — flagged in [[index]] Gaps.

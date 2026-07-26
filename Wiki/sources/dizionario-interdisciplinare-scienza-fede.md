@@ -1,35 +1,40 @@
 ---
 type: source
-title: "Dizionario Interdisciplinare di Scienza e Fede — bibliographic entry"
+title: "Dizionario Interdisciplinare di Scienza e Fede — structural entry"
 address: c-000041
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - source
   - reference
   - structural-ingest
   - scienza-e-fede
-status: seed
+status: developing
 related:
   - "[[Tomismo]]"
+  - "[[dizionario-anima-finalita-leggi-naturali]]"
 source_type: book
 author: "a cura di Giuseppe Tanzella-Nitti e Alberto Strumia (curatori generali); centinaia di collaboratori specialistici"
 date_published: "2002 (Urbaniana University Press / Città Nuova); this file a 2022 Print-to-PDF scan"
 url: ""
-confidence: low
+confidence: high
 key_claims:
-  - "This file could not be read at all in this session: it is a pure image/print-to-PDF scan (2,339 pages, no OCR text layer, 668MB) and vastly exceeds the 100MB size limit for direct image viewing. This entry is a bibliographic placeholder only, built from general knowledge of this well-known reference work, not from any content extracted from this specific file."
+  - "UPDATE 2026-07-26: this file is readable after all. The 'unreadable' verdict below only ever held for pdftotext/direct image viewing; the OCR pipeline verified in [[ocr-pipeline-for-scanned-pdfs]] (Claude Code session memory) works quickly here (~0.1s/page rasterization via PyMuPDF, this book's pages being normal A4 size unlike De Veritate's oversized scans) — a deep-ingest of the ANIMA, FINALITÀ, and LEGGI NATURALI entries is now on file at [[dizionario-anima-finalita-leggi-naturali]], which also documents the book's front-matter index (p.7, p.27-29, p.30-31) and confirms running page headers name the current entry directly, making it a genuinely navigable reference work once OCR'd."
 raw_file: ".raw/Dizionario Interdisciplinare di Scienza e Fede (NP).pdf"
 ---
 
-# Source: Dizionario Interdisciplinare di Scienza e Fede — bibliographic entry only
+# Source: Dizionario Interdisciplinare di Scienza e Fede — structural entry
 
 **Editors**: Giuseppe Tanzella-Nitti and Alberto Strumia (general editors), with contributions from a large international roster of scientists, philosophers, and theologians.
 **Format**: PDF (Microsoft Print-to-PDF from an XPS source), **2,339 pages, 668MB** — the largest file in this ingest batch by a wide margin.
 
-## Why this entry has almost no content
+## Update 2026-07-26: this file is readable after all
 
-**No text could be extracted from this file at all**: `pdftotext` returns zero characters (no OCR layer — it is a rasterized print/scan), and the file's size (668MB) vastly exceeds the 100MB limit for this session's direct image-viewing tools. **No page of this specific file was viewed.** Everything below is general bibliographic knowledge about this well-known reference work, not verified content from this file — treat this entry as a placeholder, not an ingest.
+The finding below ("no text could be extracted from this file at all") was correct as stated but incomplete: it only ruled out `pdftotext` and direct image-based viewing, not OCR. See [[dizionario-anima-finalita-leggi-naturali]] for the deep-ingest of three entries and the navigation method (front-matter index + running headers naming each entry) that makes this large a reference work practical to query selectively.
+
+## Why this entry originally had almost no content (2026-07-25 finding, since superseded)
+
+**No text could be extracted from this file at all**: `pdftotext` returns zero characters (no OCR layer — it is a rasterized print/scan), and the file's size (668MB) vastly exceeds the 100MB limit for this session's direct image-viewing tools. **No page of this specific file was viewed.** Everything below is general bibliographic knowledge about this well-known reference work, not verified content from this file.
 
 ## What this work is (general knowledge, unverified against this file)
 
@@ -41,9 +46,9 @@ Only tangential to the vault's current Thomistic focus — this is a broader "fa
 
 ## Flagged for follow-up
 
-This source needs a fundamentally different approach before any real ingest is possible:
-1. **Obtain a text-layer/searchable edition** — this print-to-PDF scan cannot be processed at all with current tools.
-2. Once readable, ingest **selectively by entry/topic** relevant to specific research questions, rather than attempting any kind of "full" ingest of a 2,339-page, multi-hundred-entry encyclopedia — this is a reference work to be queried, not a book to be read cover-to-cover.
+**Done (2026-07-26)**: ANIMA, FINALITÀ, LEGGI NATURALI — see [[dizionario-anima-finalita-leggi-naturali]].
+
+Still open, in priority order given this vault's Thomistic focus: **ANALOGIA** (cross-referenced by both the LEGGI NATURALI entry just read and this vault's own [[Gerarchia degli Esseri e Analogia]]), a Parte Seconda author-entry on Tommaso d'Aquino himself if one exists (not yet checked), and the remaining ~106 thematic entries (Parte Prima) plus ~90 author entries (Parte Seconda) — see [[dizionario-anima-finalita-leggi-naturali]] for the full "aree disciplinari" classification and page-location method.
 
 ## Raw File
 

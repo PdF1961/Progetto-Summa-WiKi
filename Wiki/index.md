@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-07-26 | Total pages: ~64 content pages (78 incl. meta/index) | Sources ingested: 14 (13 new + 1 template), plus 6 primary-text deep-ingest batches from the Somma Teologica and Contra Gentiles (2026-07-26)
+Last updated: 2026-07-26 | Total pages: ~66 content pages (80 incl. meta/index) | Sources ingested: 14 (13 new + 1 template), plus 8 primary-text deep-ingest batches (2026-07-26): Somma Teologica ×4, Contra Gentiles ×2, De Veritate ×1, Dizionario Interdisciplinare ×1
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -92,6 +92,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[opuscoli-tommaso]], [[principi-non-negoziabili-de-regimine]], [[sul-male-de-malo]] — Aquinas primary texts
 - [[somma-teologica-struttura]] — structural entry; 4 treatise-level deep-ingests complete 2026-07-26: [[somma-teologica-de-deo-uno]], [[somma-teologica-trinita]], [[somma-teologica-trattato-legge]], [[somma-teologica-sacramenti]]
 - [[somma-contro-i-gentili-struttura]] — structural entry; 2 deep-ingest batches complete 2026-07-26: [[contra-gentiles-libro-primo]] (Libro I, God's existence), [[contra-gentiles-libro-secondo]] (Libro II, the soul)
+- [[sulla-verita-de-veritate]] — structural entry; OCR deep-ingest complete 2026-07-26: [[de-veritate-qq-1-16-17-24]] (qq.1, 16, 17, 24)
+- [[dizionario-interdisciplinare-scienza-fede]] — structural entry; OCR deep-ingest complete 2026-07-26: [[dizionario-anima-finalita-leggi-naturali]] (Anima, Finalità, Leggi Naturali)
 - [[sulla-verita-de-veritate]], [[dizionario-interdisciplinare-scienza-fede]] — bibliographic entries only (unreadable image-scan files)
 
 ---
@@ -133,7 +135,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[somma-teologica-struttura]]'s four De Deo Uno/Trinity/Law/Sacraments batches each left secondary material structurally-confirmed-but-unread (see each page's "What remains unread" section) — e.g. *De Deo Uno* qq.4-11,12,14-18,20-21,24,26; the Trinity's qq.28,30-35,36-39,41-43; the Old/New Law's ceremonial/judicial precepts and New Law justification articles; and the Eucharist's qq.61,63-65,66-72 particulars. Tertia Pars qq.1-59 (the Incarnation itself) has not been deep-ingested from the primary text at all yet (only via [[Incarnazione, Unione Ipostatica e Mariologia]]'s secondary synthesis).
 - [[la-sintesi-tomistica]] is now **read in full** (all 8 Parts, completed 2026-07-25 in a same-day follow-up session) — only Parte Ottava chs. II, III, V remain (realism of first principles vs. pragmatism; efficacious/sufficient grace, now largely redundant with Parte Settima). Still open: [[le-thomisme-gilson]] (chs. II-XIV, incl. the five ways in Gilson's own words), [[sul-male-de-malo]] (Qq. 7-16, and the full disputed-question text for Qq. 1-6 beyond the analytic summary), [[mondin-dizionario-tommaso]] (~36 of 39 entries), and [[opuscoli-tommaso]]/[[principi-non-negoziabili-de-regimine]] (most of both texts).
 - [[somma-teologica-struttura]] and [[somma-contro-i-gentili-struttura]] have verified structure but no treatise-level content ingest yet — see each page's "Flagged for follow-up" section for priority treatises.
-- [[sulla-verita-de-veritate]] and [[dizionario-interdisciplinare-scienza-fede]] are **unreadable with current tools** (image-only scans, no OCR text layer; one exceeds the 100MB image-viewing limit). Need either a text-layer edition sourced from elsewhere, or page-range image extraction under the size cap.
+- [[sulla-verita-de-veritate]] and [[dizionario-interdisciplinare-scienza-fede]] are **now readable via OCR** (2026-07-26) — see [[de-veritate-qq-1-16-17-24]] and [[dizionario-anima-finalita-leggi-naturali]] for the deep-ingests completed so far. Both sources still have far more unread than read: 25 of 29 De Veritate questions, and ~195 of ~199 Dizionario entries.
 - No wiki page yet for **Jacques Maritain**, quoted approvingly multiple times across [[essenza-e-attualita-del-tomismo]] and [[la-sintesi-tomistica]] bibliographies but never given his own entity page.
 
 ---

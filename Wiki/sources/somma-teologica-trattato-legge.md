@@ -18,6 +18,7 @@ related:
   - "[[San Tommaso d'Aquino]]"
   - "[[god-philosophy-universities]]"
   - "[[Teologia Morale nella Sintesi Tomistica]]"
+  - "[[dizionario-anima-finalita-leggi-naturali]]"
 source_type: book
 author: "San Tommaso d'Aquino"
 date_published: "1265/66–1273; this edition trans. P. Tito S. Centi O.P., rev. P. Angelo Zelio Belloni O.P., 2009"
@@ -70,6 +71,8 @@ This is the single most load-bearing passage in the treatise. Natural law's prec
 3. **Proper to reason, specifically human**: the inclination to know the truth about God and to live in society — *"la fuga dell'ignoranza, il rispetto di coloro con cui si deve convivere e altre cose del genere."*
 
 Aquinas is explicit that this plurality of precepts remains **one** natural law, unified by reference back to the single first precept (*bonum est faciendum et prosequendum, malum vitandum* — good is to be done and pursued, evil avoided, established earlier in the article, not re-quoted in full here but presupposed by this passage's "quindi da farsi... da evitarsi" phrasing) — reason apprehends as good, and hence to-be-done, whatever a natural inclination tends toward, and apprehends the contrary as evil, hence to-be-avoided. This three-tier structure is the primary-text anchor for any future comparison against [[god-philosophy-universities]] ch.10's MacIntyre-mediated account of natural law, not yet cross-checked article-by-article in this pass.
+
+**Independent convergence (2026-07-26)**: [[dizionario-anima-finalita-leggi-naturali]]'s LEGGI NATURALI entry, written independently of this vault's Aquinas sources, summarizes q.93-94 nearly identically (eternal law as *ratio divinae gubernationis*, natural law as rational participation in it) and adds one precise point not on file here: the divine-lawgiver/human-lawgiver analogy is explicitly an **analogy of proportionality**, not a metaphor — cross-referencing that dictionary's own ANALOGIA entry, a natural next target for this vault given [[Gerarchia degli Esseri e Analogia]].
 
 ## Human law's binding force (q.96 a.4)
 

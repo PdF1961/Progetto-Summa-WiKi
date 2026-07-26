@@ -157,21 +157,30 @@
       "hash": "ef272a7dcb7dedc96875d9d7ab692214",
       "ingested_at": "2026-07-25",
       "pages_created": [
-        "wiki/sources/sulla-verita-de-veritate.md"
+        "wiki/sources/sulla-verita-de-veritate.md",
+        "wiki/sources/de-veritate-qq-1-16-17-24.md"
       ],
       "pages_updated": [
-        "wiki/entities/San Tommaso d'Aquino.md"
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/sources/essenza-e-attualita-del-tomismo.md",
+        "wiki/sources/god-philosophy-universities.md",
+        "wiki/sources/sul-male-de-malo.md"
       ],
-      "note": "UNREADABLE with current tools: pure image scan, no OCR text layer (pdftotext returns 0 chars). Page entry is bibliographic-only, built from general scholarship, not verified against this file's actual content."
+      "note": "UPDATE 2026-07-26: no longer unreadable. OCR pipeline (PyMuPDF rasterization + tesseract -l ita+lat) located and read qq.1, 16, 17, 24 in full; this is a genuine parallel Latin-Italian critical edition (Fernando Fiorentino, 2011), not Latin-only as an initial low-res pass suggested. Page boundaries found: q.1 p.59, q.16 p.~600-604, q.17 p.~611-627, q.18 p.628, q.23 p.760, q.24 p.~793-794."
     },
     ".raw/Dizionario Interdisciplinare di Scienza e Fede (NP).pdf": {
       "hash": "6a3bb520cc859687273833f24562c01a",
       "ingested_at": "2026-07-25",
       "pages_created": [
-        "wiki/sources/dizionario-interdisciplinare-scienza-fede.md"
+        "wiki/sources/dizionario-interdisciplinare-scienza-fede.md",
+        "wiki/sources/dizionario-anima-finalita-leggi-naturali.md"
       ],
-      "pages_updated": [],
-      "note": "UNREADABLE with current tools: 668MB image-only scan (Print-to-PDF from XPS), no OCR text layer, exceeds 100MB image-viewing tool limit. Page entry is bibliographic-only placeholder."
+      "pages_updated": [
+        "wiki/sources/somma-teologica-trattato-legge.md",
+        "wiki/concepts/Angeli e Anima Umana (Sintesi Tomistica).md",
+        "wiki/concepts/Gerarchia degli Esseri e Analogia.md"
+      ],
+      "note": "UPDATE 2026-07-26: no longer unreadable. PyMuPDF rasterization (~0.1s/page on this book's normal A4 pages) + tesseract OCR located and read the ANIMA, FINALITÀ, and LEGGI NATURALI entries via the book's own front-matter index (p.7, p.27-29, p.30-31) and running page headers that name the current entry directly. 106 of 109 thematic entries (Parte Prima) and all of Parte Seconda/Terza remain unread."
     }
   },
   "address_map": {
@@ -218,6 +227,8 @@
     "wiki/sources/somma-teologica-trattato-legge.md": "c-000057",
     "wiki/sources/somma-teologica-sacramenti.md": "c-000058",
     "wiki/sources/contra-gentiles-libro-primo.md": "c-000059",
-    "wiki/sources/contra-gentiles-libro-secondo.md": "c-000060"
+    "wiki/sources/contra-gentiles-libro-secondo.md": "c-000060",
+    "wiki/sources/de-veritate-qq-1-16-17-24.md": "c-000061",
+    "wiki/sources/dizionario-anima-finalita-leggi-naturali.md": "c-000062"
   }
 }

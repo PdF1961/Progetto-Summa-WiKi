@@ -3,7 +3,7 @@ type: source
 title: "Essenza e attualità del tomismo"
 address: c-000017
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - source
@@ -15,6 +15,7 @@ related:
   - "[[Tomismo]]"
   - "[[Dottrina di Atto e Potenza]]"
   - "[[XXIV Tesi Tomiste]]"
+  - "[[de-veritate-qq-1-16-17-24]]"
 source_type: book
 author: "Réginald Garrigou-Lagrange"
 date_published: "2012"
@@ -41,6 +42,7 @@ A two-part defense of Thomism against modernist and relativist theology. Part I 
 ## Core Argument
 
 - Modernist/relativist theology (via Blondel's philosophy of action) redefines truth from *adaequatio rei et intellectus* (conformity of judgment to extramental reality) to *adaequatio realis mentis et vitae* (conformity of mind to ever-evolving human life). Garrigou-Lagrange holds this redefinition, condemned by Pius X in *Pascendi*, dissolves the immutability of dogma.
+- **Verified against the primary text (2026-07-26)**: *De Veritate* q.1 a.1 — see [[de-veritate-qq-1-16-17-24]] — confirms Aquinas gives *adaequatio rei et intellectus* as one of **three** legitimate ways of defining truth (grounding, formal essence, consequent effect), and is explicit that the formula itself is **Isaac's**, not his own coinage — a nuance this polemic's usual citation of "Aquinas's definition" elides.
 - Immutable affirmations require immutable notions. Common-sense notions (confused but real) become philosophically defensible only through the metaphysical work Aristotle and Aquinas performed — chiefly the real distinction between potency and act.
 - Thomism's excellence rests on being **metaphysics of being** (not physics, psychology, or ethics), organized around the primacy of act over potency. From this flow its three essential characters: **realism**, **intellectualism**, **theocentrism**.
 - Part II derives, article by article, the applications of potency/act: matter/form distinction, the real distinction between essence and existence in creatures (denied by Suárez, central to Aquinas), the impossibility of infinite regress in subordinated causes, the soul as sole substantial form of the body, and the grounding of the five ways and of grace/nature distinction.

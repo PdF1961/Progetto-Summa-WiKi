@@ -72,11 +72,14 @@ Consequently: **original sin is a sin of *nature*** (voluntary only through Adam
 
 *Contra Gentiles* II, chs.56-59, 79 — read directly, see [[contra-gentiles-libro-secondo]] — give Aquinas's fullest primary-text treatment of the soul-as-substantial-form doctrine and its main rival theories: Plato's "pilot in a ship" model (refuted at ch.57 for reducing man to a being *per accidens*) and Averroes's shared-separate-intellect model (refuted at length in ch.59, absent from the Summa Teologica's more compressed treatment). The immortality argument at ch.79 confirms the "soul perfected by abstraction from bodily reality, not destroyed by separation from it" doctrine already summarized here via [[la-sintesi-tomistica]].
 
+**Independent convergence (2026-07-26)**: [[dizionario-anima-finalita-leggi-naturali]]'s ANIMA entry, written independently of this vault's Aquinas sources, cites the *same* two texts — *Contra Gentiles* II c.56 and *S.Th.* I q.51 a.1 — for the soul-as-*forma-corporis* doctrine, and adds the historical reception this vault didn't have: the Council of Vienne (1312) taught the doctrine officially against Olivi's pluriform-soul theory, grounded explicitly in Christological concerns (the unity of Christ's humanity), with the Paduan Averroists and Pomponazzi as its later opponents.
+
 ## See also
 
 - [[la-sintesi-tomistica]] — source
 - [[Dottrina di Atto e Potenza]] — the act/potency and essence/esse framework underlying every conclusion here
 - [[Persona (Tomismo)]] — the concept of person this psychology grounds
 - [[god-philosophy-universities]] — MacIntyre's independent, convergent treatment of soul-as-form-of-body and personal identity
+- [[dizionario-anima-finalita-leggi-naturali]] — independent third-source convergence on the same primary citations
 - [[Grazia Efficace e Premozione Fisica]] — the *scientia media* controversy the free-will material connects to
 - [[contra-gentiles-libro-secondo]] — primary-text verification, chs.56-59, 79

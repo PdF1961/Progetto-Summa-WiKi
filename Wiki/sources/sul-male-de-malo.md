@@ -3,7 +3,7 @@ type: source
 title: "Quaestiones disputatae de malo (Sul Male)"
 address: c-000037
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - source
@@ -14,6 +14,7 @@ related:
   - "[[San Tommaso d'Aquino]]"
   - "[[Il Male come Privazione]]"
   - "[[Dottrina di Atto e Potenza]]"
+  - "[[de-veritate-qq-1-16-17-24]]"
 source_type: book
 author: "San Tommaso d'Aquino"
 date_published: "1263-1268 (per Mandonnet, cross-checked in [[le-thomisme-gilson]])"

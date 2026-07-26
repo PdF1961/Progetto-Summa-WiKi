@@ -3,7 +3,7 @@ type: concept
 title: "Gerarchia degli Esseri e Analogia"
 address: c-000033
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - concept
@@ -15,6 +15,7 @@ related:
   - "[[San Tommaso d'Aquino]]"
   - "[[Dottrina di Atto e Potenza]]"
   - "[[Tomismo]]"
+  - "[[dizionario-anima-finalita-leggi-naturali]]"
 complexity: advanced
 domain: "philosophy/metaphysics"
 aliases:
@@ -50,10 +51,15 @@ Gilson explicitly rejects the thesis (common enough to need refuting) that this 
 
 The hardest question — how divine perfections (wisdom, mercy, justice) can be really identical in God *without destroying each other* — is answered via **Cajetan's** solution (accepted as the standard Thomist reading): wisdom and justice don't identify formally *with each other* (which would destroy both) but each is *formaliter eminenter* contained in the higher-order reality of the **Deity** itself, which is "super ens, super unum" — above being, above unity — and so can contain all perfections formally and eminently without any of them collapsing into synonymy. This is the same analogical, hierarchical structure Gilson describes for creatures, applied reflexively to the unity-in-plurality of God's own attributes and (by extension) the divine Persons.
 
+## A concrete application flagged in passing (2026-07-26)
+
+[[dizionario-anima-finalita-leggi-naturali]]'s LEGGI NATURALI entry, in explaining why Aquinas calls God a "legislator" who governs the world by law, is explicit that this is an **analogy of proportionality** rather than a metaphor — a small but concrete instance of the analogy machinery this page documents, applied outside the divine-attributes case Gilson and Garrigou-Lagrange both focus on. Not yet cross-checked against that dictionary's own dedicated ANALOGIA entry, flagged there as a follow-up target.
+
 ## See also
 
 - [[le-thomisme-gilson]] — source
 - [[la-sintesi-tomistica]] — Garrigou-Lagrange's parallel "eminence of the Deity" / *formaliter eminenter* account
+- [[dizionario-anima-finalita-leggi-naturali]] — analogy of proportionality applied to divine legislation
 - [[Dottrina di Atto e Potenza]] — the potency/act formula for the "margin" of incomplete self-realization every finite being exhibits
 - [[Le Cinque Vie]], [[Grazia Efficace e Premozione Fisica]] — the five ways and the doctrine of grace/providence, both converging on the same *ipsum esse subsistens* / eminence-of-Deity doctrine
 - [[Tomismo]] — the wider system; this page details specifically Gilson's being-hierarchy-analogy synthesis, distinct from Garrigou-Lagrange's act/potency-centered synthesis
