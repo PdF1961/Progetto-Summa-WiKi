@@ -13,6 +13,10 @@ status: seed
 related:
   - "[[San Tommaso d'Aquino]]"
   - "[[Tomismo]]"
+  - "[[somma-teologica-de-deo-uno]]"
+  - "[[somma-teologica-trinita]]"
+  - "[[somma-teologica-trattato-legge]]"
+  - "[[somma-teologica-sacramenti]]"
 source_type: book
 author: "San Tommaso d'Aquino"
 date_published: "1265/66–1273 (unfinished at Aquinas's death, 7 March 1274); this Italian edition trans. P. Tito S. Centi O.P., online revision P. Angelo Zelio Belloni O.P., 2009"
@@ -49,6 +53,14 @@ This is the primary reference point behind nearly every secondary source already
 ## Flagged for follow-up deep ingest
 
 Any future deep-ingest of this source should proceed **treatise by treatise**, not attempt the whole work at once — natural units already flagged elsewhere in this vault as high-value: *De Deo Uno* (I, qq.2-26, cross-references [[la-sintesi-tomistica]] Parte Seconda), the Trinity (I, qq.27-43, cross-references [[la-sintesi-tomistica]] Parte Terza), the treatise on law (I-II, qq.90-108, cross-references [[god-philosophy-universities]] ch.10), and the Christological/sacramental material in Tertia Pars (cross-references [[la-sintesi-tomistica]] Parti Quinta-Sesta).
+
+**Batch 1 complete (2026-07-26)**: *De Deo Uno* (I, qq.2-26) now has a dedicated deep-ingest page, [[somma-teologica-de-deo-uno]], including an exact page-index (built via full-text extraction + regex, not manual browsing) for every question boundary q.2 through q.44 — the same map will make batches 2-4 of this source cheap to locate.
+
+**Batch 2 complete (2026-07-26)**: the Trinity treatise (I, qq.27-43) now has a dedicated deep-ingest page, [[somma-teologica-trinita]], reusing Batch 1's page-index. Also discovered: this PDF is a parallel Latin-Italian edition (each question opens with the original Latin prooemium before the Italian translation) — useful for future close-reading of any passage.
+
+**Batch 3 complete (2026-07-26)**: the Treatise on Law (I-II, qq.90-108) now has a dedicated deep-ingest page, [[somma-teologica-trattato-legge]]. **Trap discovered and documented there**: question numbers reset at each Part, so Prima Pars qq.90-108 (creation of the soul, image of God, angelic hierarchies — pages 908-1035) is a completely different treatise from Prima Secundae qq.90-108 (law — pages 1803-1998) despite sharing question numbers. Any future page-mapping on this source must anchor to the correct Part first.
+
+**Batch 4 complete (2026-07-26) — plan finished**: sacraments in general and the Eucharist (III, qq.60-83) now have a dedicated deep-ingest page, [[somma-teologica-sacramenti]]. This closes the four-batch treatise-level plan agreed at the start of this session (De Deo Uno → Trinity → Law → Christology/Sacraments). Still open for a future session: Prima Pars qq.44-89 (creation, angels, man) and qq.4-11/12/14-18/20-21/24/26 within *De Deo Uno* (structurally confirmed but not read article-by-article, see [[somma-teologica-de-deo-uno]]); Tertia Pars qq.1-59 (the Incarnation itself, not yet deep-ingested from this source though covered via [[Incarnazione, Unione Ipostatica e Mariologia]]'s secondary synthesis) and qq.84-90 (Penance, where Aquinas's own text breaks off).
 
 ## Raw File
 

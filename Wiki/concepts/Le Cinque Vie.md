@@ -50,8 +50,18 @@ Kant objected that the unintelligibility of an uncaused contingent being is unin
 
 All five ways terminate at the same keystone: **Being itself subsisting** (*ipsum esse subsistens*). Each way's terminus (first mover, first cause, necessary being, supreme being, supreme ordaining intelligence) can belong only to one whose mode of *acting* follows a mode of *being* that simply *is* existence — not one who merely *has* existence, but who *is* the Existence, Truth, and Life themselves. This is the same *ipsum esse subsistens* doctrine documented in [[Dottrina di Atto e Potenza]] and [[god-philosophy-universities]], reached here via the five ways rather than via the essence/esse composition argument directly — the two are, for Garrigou-Lagrange, two routes (*via inventionis* ascending, *via iudicii* descending) to the same summit: **only in God are essence and existence identical**.
 
+## Verified against the primary text (2026-07-26)
+
+Read directly at *S.Th.* I, q.2, a.3 (see [[somma-teologica-de-deo-uno]]): Aquinas gives all five ways within this single article, immediately after answering two objections (the problem of evil; causal-parsimony). No divergence from the account above — Garrigou-Lagrange's synthesis tracks the primary text closely, including the terse, formulaic close of each way ("...e tutti riconoscono che esso è Dio").
+
+## Compared against the Contra Gentiles (2026-07-26)
+
+*Contra Gentiles* I, ch.13 — see [[contra-gentiles-libro-primo]] — gives Aristotle's own proofs at far greater length than the Summa's First Way: an entire chapter (two arguments from motion, each with premise-by-premise proof and explicit handling of the eternity-of-the-world and animated-sphere objections) devoted to what the Summa compresses into one clause. The *Contra Gentiles* passage covers only the motion-based arguments in this chapter; the other four ways' Contra Gentiles parallels appear in later, not-yet-mapped chapters of Libro I.
+
 ## See also
 
 - [[Dottrina di Atto e Potenza]] — the essence/esse framework the five ways terminate in
 - [[god-philosophy-universities]] — MacIntyre's independent treatment of the third way
 - [[la-sintesi-tomistica]] — source
+- [[somma-teologica-de-deo-uno]] — primary-text verification, q.2 a.3
+- [[contra-gentiles-libro-primo]] — the fuller, purely-philosophical argument, ch.13

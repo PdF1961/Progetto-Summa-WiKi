@@ -68,9 +68,14 @@ The Trinity cannot be known naturally: natural reason can know God only as princ
 
 Three rival accounts, per Aquinas/John of St. Thomas/Fr. Gardeil: **Vázquez** reduces all divine presence in the just to the general presence of immensity (God present in all conserved things) — the Trinity as merely a beloved-but-absent object. **Suárez** holds charity alone makes God substantially present, regardless of the presence of immensity — but Garrigou-Lagrange objects that charity for Christ's humanity or the Virgin doesn't make *them* really present within us; charity is affective union, not real indwelling. **Aquinas's own view** (which "dominates" both): the special Trinitarian presence in the just *presupposes* the general presence of immensity (against Suárez), but sanctifying grace, infused virtues, and gifts render God really present *in a new way*, as an object experientially knowable and enjoyable, "quasi-experimental" via infused charity's connaturality with God's inner life (against Vázquez) — not merely represented as an absent beloved, but really present and sometimes *felt*, as the "soul of our soul." This experiential-but-often-latent knowledge need not be actual (the Trinity indwells even during sleep, as long as one remains in grace) — only really possible via the habitual gifts.
 
+## Verified against the primary text (2026-07-26)
+
+*S.Th.* I, qq.27, 29, 40 — read directly, see [[somma-teologica-trinita]] — confirm the processions/relations/persons ordering, Boethius's person-definition as adopted verbatim at q.29 a.1, and the "relations constitute the hypostases" resolution of the circularity objection at q.40 a.4 ("la paternità è lo stesso Padre"). No divergence from Garrigou-Lagrange's synthesis found.
+
 ## See also
 
 - [[la-sintesi-tomistica]] — source
 - [[Dottrina di Atto e Potenza]] — the essence/esse framework behind the "unum esse" dispute with Suárez
 - [[Persona (Tomismo)]] — the general concept of person this Trinitarian doctrine specializes
 - [[Gerarchia degli Esseri e Analogia]] — the *formaliter eminenter* doctrine Cajetan applies here too
+- [[somma-teologica-trinita]] — primary-text verification, qq.27, 29, 40

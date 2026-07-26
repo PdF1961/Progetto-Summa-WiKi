@@ -54,9 +54,14 @@ Only briefly sketched (Aquinas's treatise on the Church was never systematized a
 
 **Immutability of the separated soul** (*Contra Gentiles* c.91, 95, extensively quoted): revisits and reinforces the doctrine already documented in [[Angeli e Anima Umana (Sintesi Tomistica)]] — the soul's will regarding its last end becomes immutably fixed immediately after death, since the body (whose motion could indirectly alter the soul's dispositions) is no longer present to move the soul toward a goal *in via*; it now rests in the end already secured. **Cajetan's dissenting view** (that the separated soul's *first* act after separation is itself meritorious/demeritorious, collapsing the angel/human distinction) is reported as **generally rejected** by Thomists (Sylvester of Ferrara, the Salmanticenses), citing John 9:4 ("night comes, when no one can work") — merit/demerit belongs to the composite *man*, not the separated soul alone, so the last meritorious act must occur *before* death, not at the instant of separation.
 
+## Verified against the primary text (2026-07-26)
+
+*S.Th.* III, q.62 and q.75 — read directly, see [[somma-teologica-sacramenti]] — confirm the instrumental-causality doctrine (sacraments as causing, not merely signifying, grace, contrasted with the Old Law's sacraments per Gal 4:9) and the transubstantiation doctrine (q.75 a.3: Aquinas explicitly rejects both annihilation of the bread's substance and its resolution into pre-existing matter, in favor of direct substance-to-substance conversion). No divergence from Garrigou-Lagrange's synthesis found.
+
 ## See also
 
 - [[la-sintesi-tomistica]] — source
 - [[Incarnazione, Unione Ipostatica e Mariologia]] — Christ's humanity as instrumental physical cause of grace, presupposed by the sacramental system
 - [[Dottrina di Atto e Potenza]] — the substance/accident and potency/act framework transubstantiation applies
 - [[Angeli e Anima Umana (Sintesi Tomistica)]] — the separated soul's immutability, treated in both places
+- [[somma-teologica-sacramenti]] — primary-text verification, qq.60-83

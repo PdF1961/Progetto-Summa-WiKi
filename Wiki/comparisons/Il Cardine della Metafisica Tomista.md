@@ -52,7 +52,12 @@ Having read the whole of *La Sintesi Tomistica* (not just Parte Prima and Parte 
 
 These are not contradictory claims about *what Aquinas's texts say* — all three authors cite overlapping passages (*Summa contra Gentiles*, *De ente et essentia*, the *Summa Theologiae*'s treatment of God's simplicity) and agree on the object-level doctrine (creatures are composed of essence and a really distinct act of existing; God alone is *ipsum esse subsistens*). They differ in **what each treats as most explanatorily fundamental** — a difference of systematic emphasis and pedagogical entry point, not of doctrine. Interestingly, [[Alasdair MacIntyre]]'s independent, English-language treatment in [[god-philosophy-universities]] ch. 9 lands closest to Garrigou-Lagrange's framing (essence/existence composition as *the* central achievement letting Aquinas "go beyond Aristotle"), without engaging Gilson's or Mondin's alternative framings at all — suggesting the act/potency-centered reading may be the more common default outside specialist Thomist historiography.
 
+## Verified against the primary text (2026-07-26)
+
+*S.Th.* I, q.3, a.4 ("Se in Dio l'essenza e l'essere siano la stessa cosa") — read directly, see [[somma-teologica-de-deo-uno]] — confirms the doctrine all three authors build on: existence differing from essence would require a cause, either from the essence's own principles (impossible) or an external agent (impossible for God as first cause). This is Aquinas's own primary-text statement of the thesis Garrigou-Lagrange, Gilson, and Mondin each take as (or build from) Thomism's keystone.
+
 ## See also
 
 - [[Dottrina di Atto e Potenza]], [[Gerarchia degli Esseri e Analogia]] — the two fullest expositions
 - [[Tomismo]] — general overview referencing both syntheses
+- [[somma-teologica-de-deo-uno]] — primary-text verification, q.3 a.4

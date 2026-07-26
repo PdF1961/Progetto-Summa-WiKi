@@ -68,6 +68,10 @@ A point on which **Aquinas's own view developed** across his career (traced thro
 
 Consequently: **original sin is a sin of *nature*** (voluntary only through Adam's will, not ours), formally constituted by the **privation of original justice** (of which grace is the primary element) — which is why Baptism, restoring grace, actually remits it (if original justice were merely natural integrity, Baptism, which doesn't restore that integrity, couldn't remit the sin). Its transmission is explained by the same soul-as-sole-substantial-form doctrine: though the soul is created *ex nihilo* directly by God (not generated), it constitutes, together with the generated body, **one single human nature** — "human nature is transmitted from parent to child through the transmission of flesh, to which the soul is subsequently infused, and from this it contracts the infection, because it becomes with the transmitted flesh one nature. If it were not united to it so as to constitute [one] nature, as an angel is united to an assumed body, it would not receive the infection" (quoted directly).
 
+## Verified against the primary text (2026-07-26)
+
+*Contra Gentiles* II, chs.56-59, 79 — read directly, see [[contra-gentiles-libro-secondo]] — give Aquinas's fullest primary-text treatment of the soul-as-substantial-form doctrine and its main rival theories: Plato's "pilot in a ship" model (refuted at ch.57 for reducing man to a being *per accidens*) and Averroes's shared-separate-intellect model (refuted at length in ch.59, absent from the Summa Teologica's more compressed treatment). The immortality argument at ch.79 confirms the "soul perfected by abstraction from bodily reality, not destroyed by separation from it" doctrine already summarized here via [[la-sintesi-tomistica]].
+
 ## See also
 
 - [[la-sintesi-tomistica]] — source
@@ -75,3 +79,4 @@ Consequently: **original sin is a sin of *nature*** (voluntary only through Adam
 - [[Persona (Tomismo)]] — the concept of person this psychology grounds
 - [[god-philosophy-universities]] — MacIntyre's independent, convergent treatment of soul-as-form-of-body and personal identity
 - [[Grazia Efficace e Premozione Fisica]] — the *scientia media* controversy the free-will material connects to
+- [[contra-gentiles-libro-secondo]] — primary-text verification, chs.56-59, 79

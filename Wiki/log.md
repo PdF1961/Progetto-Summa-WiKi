@@ -21,6 +21,27 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## 2026-07-26 | batch ingest | Summa contro i Gentili, 2 deep-ingests (batches 5-6, same-day follow-up)
+
+- Source: `.raw/S. Tommaso d'Aquino. - Somma contro i Gentili [ocr] [1975].pdf` (1,374 pp.), continuing the extended plan after the Somma Teologica's 4 batches
+- Method note: this file is genuinely OCR'd (unlike the Summa Teologica's clean digital text) and has real error rates ("CAPITOLO" often garbles to "CaritoLo," accents often render as replacement characters) — the clean regex chapter-index technique built for the Summa Teologica did not transfer well; used targeted content-keyword search instead (e.g. "motore immobile", "Averroè", "forma sostanziale del corpo") to locate doctrines directly.
+- Pages created: [[contra-gentiles-libro-primo]] (c-000059, Libro I ch.13 — Aristotle's two proofs of God's existence from motion, at far greater length than the Summa's compressed First Way, including objection-handling absent from the Summa entirely), [[contra-gentiles-libro-secondo]] (c-000060, Libro II ch.56-59, 79 — soul as substantial form refuting Plato's "pilot in a ship" model, an extended anti-Averroist polemic against a single shared intellect for all humans, and the soul's immortality)
+- Pages updated: [[somma-contro-i-gentili-struttura]] (batches logged, OCR-quality note added), [[Le Cinque Vie]] (compared against the Contra Gentiles' fuller philosophical argument), [[god-philosophy-universities]] (primary-text location found for the Averroist threat ch.9 alludes to but doesn't quote), [[Angeli e Anima Umana (Sintesi Tomistica)]] (primary-text verification of soul-as-form doctrine and its rival theories)
+- Key insight: the Contra Gentiles' anti-Averroist chapter (II.59, part of a ~20-chapter polemic) gives this vault its first primary-text location for why Aquinas thinks personal identity is at stake in the soul/body question — on Averroes's view, "I" would never actually think at all, only be known by a separate cosmic intellect using my phantasms as raw material. [[god-philosophy-universities]] ch.9 discusses the personal-identity stakes but never quotes this passage directly.
+
+---
+
+## 2026-07-26 | batch ingest | Somma Teologica, 4 treatise-level deep-ingests (planned batches 1-4)
+
+- Source: `.raw/S. Tommaso d'Aquino - Somma Teologica.pdf` (5,318 pp.), following the paced ingestion plan agreed 2026-07-25 (see memory `ingestion-schedule-four-texts`)
+- Method: extracted the entire PDF to plain text once (`pdftotext -enc UTF-8`, ~17MB, 5,319 pages split on form-feed), then used a Python script to regex-locate every question's `ARGOMENTO N` header, building an exact page-index per Part far cheaper than binary-searching page ranges one question at a time. **Trap found and documented**: question numbers reset at each Part (I, I-II, II-II, III), so e.g. Prima Pars qq.90-108 and Prima Secundae qq.90-108 are entirely different treatises sharing the same numbers — cost real time in Batch 3 before being caught and written up.
+- Pages created: [[somma-teologica-de-deo-uno]] (c-000055, I qq.2-26 — five ways, essence/esse, analogy, providence/predestination, omnipotence), [[somma-teologica-trinita]] (c-000056, I qq.27-43 — processions, relations, persons, notional acts), [[somma-teologica-trattato-legge]] (c-000057, I-II qq.90-108 — eternal/natural/human law, natural-inclinations hierarchy, Old/New Law), [[somma-teologica-sacramenti]] (c-000058, III qq.60-83 — sacraments as instrumental causes of grace, transubstantiation)
+- Pages updated: [[somma-teologica-struttura]] (all four batches logged in its follow-up section), [[Le Cinque Vie]] and [[Il Cardine della Metafisica Tomista]] (primary-text verification of the five ways and essence/esse), [[La Santissima Trinità (Sintesi Tomistica)]] (primary-text verification of processions/person-definition/circularity resolution), [[god-philosophy-universities]] (primary-text verification of natural law's three-tier inclinations), [[I Sacramenti nella Sintesi Tomistica]] (primary-text verification of instrumental causality and transubstantiation)
+- Key insight: every doctrine this vault previously held only via Garrigou-Lagrange's secondary synthesis in [[la-sintesi-tomistica]] now has a primary-text citation directly from the Summa itself, with no divergence found anywhere checked. Also discovered this PDF is a parallel Latin-Italian edition (each question opens with the original Latin prooemium).
+- Still open: Tertia Pars qq.1-59 (the Incarnation itself, not yet deep-ingested from primary text), qq.84-90 (Penance, where Aquinas's own writing breaks off), and numerous structurally-confirmed-but-unread questions within each of the four batches (see each page's "What remains unread" section).
+
+---
+
 ## 2026-07-25 | deep-dive | La Sintesi Tomistica Parti II-VII (same-day follow-up)
 
 - Source: `.raw/R. Garrigou-Lagrange - La Sintesi Tomistica.epub` (previously only Intro + Parte I + Parte VIII cap. I read; user requested "deep-dive la-sintesi-tomistica parti II-VII")

@@ -14,6 +14,8 @@ related:
   - "[[San Tommaso d'Aquino]]"
   - "[[Tomismo]]"
   - "[[le-thomisme-gilson]]"
+  - "[[contra-gentiles-libro-primo]]"
+  - "[[contra-gentiles-libro-secondo]]"
 source_type: book
 author: "San Tommaso d'Aquino"
 date_published: "1259-1264/65 (composition, per Mandonnet/Grabmann, cross-checked in [[le-thomisme-gilson]]); this Italian edition trans. P. Tito S. Centi O.P., UTET Torino, 1975"
@@ -61,6 +63,8 @@ The *Contra Gentiles* is the primary companion text to the *Summa Theologiae* ([
 ## Flagged for follow-up deep ingest
 
 The actual four books' text (1,374 pages) has not been read. Highest-priority targets for a future deep-ingest, given what else is already in the vault: **Libro I**'s proofs of God's existence (direct comparison against [[god-philosophy-universities]] ch. 9's treatment of the five ways and against [[le-thomisme-gilson]] chs. III-V, not yet read in full there either) and **Libro II**'s soul/body material (comparison against [[god-philosophy-universities]]'s Aristotle/Averroes/Aquinas discussion).
+
+**Batches 5-6 complete (2026-07-26)**: Libro I ch.13 (Aristotle's two proofs of God's existence from motion) now has a dedicated deep-ingest page, [[contra-gentiles-libro-primo]]; Libro II ch.56-59, 79 (soul as substantial form, the anti-Averroist polemic on the unity of the intellect, immortality) has [[contra-gentiles-libro-secondo]]. **OCR quality note** (this file, unlike the Summa Teologica, is a genuine scan-OCR with real error rates — "CAPITOLO" often garbles to "CaritoLo," accents often render as replacement characters): the page-index-via-clean-regex technique built for the Summa Teologica does not transfer well here; use content-keyword search instead for any future batch on this source.
 
 ## Raw File
 

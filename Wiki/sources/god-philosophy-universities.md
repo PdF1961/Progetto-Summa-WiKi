@@ -16,6 +16,8 @@ related:
   - "[[Tomismo]]"
   - "[[Dottrina di Atto e Potenza]]"
   - "[[dopo-la-virtu]]"
+  - "[[somma-teologica-trattato-legge]]"
+  - "[[contra-gentiles-libro-secondo]]"
 source_type: book
 author: "Alasdair MacIntyre"
 date_published: "2009 (Rowman & Littlefield, subtitle: A Selective History of the Catholic Philosophical Tradition)"
@@ -56,6 +58,7 @@ Read in full: Chapters 9 ("Aquinas: Philosophy and Our Knowledge of God"), 10 ("
 
 - Aristotle: intellect (unlike perception) is not dependent on bodily sense organs — De Anima 429b4-5. Ibn Rushd (Averroes) read this as implying that what survives death is not the *individual* human being (though as a devout Muslim he held a bodily-resurrection view). Aquinas's *Quaestiones Disputatae de Anima* asks whether the soul can be **both a form and a particular thing** (*hoc aliquid*) — answered yes, because the soul has "its own peculiar activity," thinking, which does not require a bodily organ (no organ plays the role for thinking that eyes play for seeing) — but this does not collapse Aquinas's view into Plato's dualism.
 - **What distinguishes Aquinas from Plato/Plotinus**: this particular thought is *mine* because of its relation to my particular body (whose interactions with the world supplied the perceptions from which thought begins) — my identity as thinker is *derivative from* my identity as an animal body, not prior to or independent of it. Consequently, a soul separated from the body at death is **incomplete** — "if soul is deprived of body, it will exist imperfectly" (Aquinas, commentary on 1 Corinthians, cited via McDermott 1993). This is why, for Aquinas, resurrection of the body — not merely survival of an immaterial soul — is required for full personal immortality: "soul is not the whole human being, only part of one: my soul is not me."
+- **Verified against the primary text (2026-07-26)**: *Contra Gentiles* II, ch.59 — see [[contra-gentiles-libro-secondo]] — is the primary-text location of the Averroist threat this chapter alludes to but doesn't quote: Aquinas's own summary of Averroes's position (the possible intellect is one, separate, shared by all humans, connecting to individuals only via the phantasm) and his refutation, sharpest at: on Averroes's view "l'uomo non otterrà d'intendere, ma solo di essere conosciuto intellettualmente da un intelletto separato" — i.e. *I* would never actually think at all, only be known by a separate cosmic intellect using my phantasms as raw material. This is the textual root of why personal identity requires the soul to be *my own* form, not a shared separate substance.
 
 ## Chapter 10 — Natural law, virtue, and the life of practice
 
@@ -65,6 +68,7 @@ Read in full: Chapters 9 ("Aquinas: Philosophy and Our Knowledge of God"), 10 ("
 - **MacIntyre's own argument for why the natural law precepts must be exactly these**: rational deliberation *in company with others* (needed to escape the one-sidedness of purely individual judgment) is only possible among people committed unconditionally to rules against killing, violence, theft, deception, and promise-breaking — precisely because without these, genuine (non-coercive, non-manipulative) rational deliberation with *anyone whatsoever* is impossible. This set of preconditions for rational deliberation turns out to be identical to Aquinas's primary precepts of natural law.
 - The four cardinal virtues are needed to *apply* the precepts rightly (prudence especially); the theological virtues (unlike the cardinal virtues, infused by grace rather than acquired by habituation) are needed because purely secular moral effort cannot reach the final end (vision of God) or overcome recurrent failures of practical reason caused by disordered love of money, power, pleasure, fame.
 - Aquinas's larger purpose in the *Summa Theologiae*'s moral sections (per Leonard Boyle O.P.) was to replace older confessional manuals used by parish priests — i.e., the *Summa* itself was written as an act of obedience to the very natural-law precept of contributing to the common good it expounds.
+- **Verified against the primary text (2026-07-26)**: *S.Th.* I-II, qq.90-94 now read directly — see [[somma-teologica-trattato-legge]]. Confirms MacIntyre's summary closely, and adds the primary text's own three-tier derivation of the precepts from natural inclinations (q.94 a.2: self-preservation, shared with all substances; procreation/offspring-care, shared with animals; knowledge of truth and social life, proper to reason) — the textual source for "primary precepts are the same for everyone, everywhere" that MacIntyre paraphrases here without quoting directly.
 
 ## Chapter 11 — Aquinas's philosophy of university education
 
