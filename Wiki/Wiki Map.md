@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Map"
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - meta
   - navigation

@@ -121,23 +121,37 @@
       "hash": "b397be48d7fe853701b5891a070ae54a",
       "ingested_at": "2026-07-25",
       "pages_created": [
-        "wiki/sources/somma-teologica-struttura.md"
+        "wiki/sources/somma-teologica-struttura.md",
+        "wiki/sources/somma-teologica-de-deo-uno.md",
+        "wiki/sources/somma-teologica-trinita.md",
+        "wiki/sources/somma-teologica-trattato-legge.md",
+        "wiki/sources/somma-teologica-sacramenti.md"
       ],
       "pages_updated": [
-        "wiki/entities/San Tommaso d'Aquino.md"
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/concepts/Le Cinque Vie.md",
+        "wiki/comparisons/Il Cardine della Metafisica Tomista.md",
+        "wiki/concepts/La Santissima Trinità (Sintesi Tomistica).md",
+        "wiki/sources/god-philosophy-universities.md",
+        "wiki/concepts/I Sacramenti nella Sintesi Tomistica.md"
       ],
-      "note": "Structural/bibliographic entry only — 5,318 pages, structure verified from file's own master index (pp. 1-40), body text not read."
+      "note": "Structural/bibliographic entry (5,318 pages) plus 4 treatise-level deep-ingest batches added 2026-07-26: De Deo Uno (I qq.2-26), Trinity (I qq.27-43), Treatise on Law (I-II qq.90-108), sacraments/Eucharist (III qq.60-83). Page-index built via full-text extraction + regex on question headers; question numbers reset per Part (a documented trap)."
     },
     ".raw/S. Tommaso d'Aquino. - Somma contro i Gentili [ocr] [1975].pdf": {
       "hash": "862bd80ba7669b677b8ca03711a22c97",
       "ingested_at": "2026-07-25",
       "pages_created": [
-        "wiki/sources/somma-contro-i-gentili-struttura.md"
+        "wiki/sources/somma-contro-i-gentili-struttura.md",
+        "wiki/sources/contra-gentiles-libro-primo.md",
+        "wiki/sources/contra-gentiles-libro-secondo.md"
       ],
       "pages_updated": [
-        "wiki/entities/San Tommaso d'Aquino.md"
+        "wiki/entities/San Tommaso d'Aquino.md",
+        "wiki/concepts/Le Cinque Vie.md",
+        "wiki/sources/god-philosophy-universities.md",
+        "wiki/concepts/Angeli e Anima Umana (Sintesi Tomistica).md"
       ],
-      "note": "Structural entry — 1,374 pages; Centi's introduction (pp. 9-14+) read directly, body text (4 books) not read."
+      "note": "Structural entry (1,374 pages; Centi's introduction read) plus 2 deep-ingest batches added 2026-07-26: Libro I ch.13 (Aristotle's proofs of God's existence) and Libro II ch.56-59, 79 (soul as substantial form, anti-Averroist polemic, immortality). This file is genuine scan-OCR with real error rates; content-keyword search was used instead of the clean regex chapter-index technique."
     },
     ".raw/S. Tommaso d'Aquino - Sulla Verità.pdf": {
       "hash": "ef272a7dcb7dedc96875d9d7ab692214",
@@ -198,6 +212,12 @@
     "wiki/concepts/Teologia Morale nella Sintesi Tomistica.md": "c-000051",
     "wiki/concepts/Persistent Wiki Artifact.md": "c-000052",
     "wiki/concepts/Query-Time Retrieval.md": "c-000053",
-    "wiki/concepts/Source-First Synthesis.md": "c-000054"
+    "wiki/concepts/Source-First Synthesis.md": "c-000054",
+    "wiki/sources/somma-teologica-de-deo-uno.md": "c-000055",
+    "wiki/sources/somma-teologica-trinita.md": "c-000056",
+    "wiki/sources/somma-teologica-trattato-legge.md": "c-000057",
+    "wiki/sources/somma-teologica-sacramenti.md": "c-000058",
+    "wiki/sources/contra-gentiles-libro-primo.md": "c-000059",
+    "wiki/sources/contra-gentiles-libro-secondo.md": "c-000060"
   }
 }

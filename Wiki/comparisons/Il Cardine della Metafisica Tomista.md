@@ -3,7 +3,7 @@ type: comparison
 title: "Il Cardine della Metafisica Tomista: tre interpretazioni a confronto"
 address: c-000043
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - comparison

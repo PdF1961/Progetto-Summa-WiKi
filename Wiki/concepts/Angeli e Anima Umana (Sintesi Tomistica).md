@@ -3,7 +3,7 @@ type: concept
 title: "Angeli e Anima Umana (Sintesi Tomistica)"
 address: c-000048
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - concept

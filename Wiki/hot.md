@@ -28,7 +28,7 @@ Navigation: [[index]] | [[log]] | [[overview]]
 - Both Summa PDFs are **parallel Latin-Italian editions** (Latin prooemium before the Italian translation on the Summa Teologica; Latin scripture/Aristotle citations throughout the Contra Gentiles) — useful for future close Latin readings.
 - Vault's actual domain is **Thomism / Aquinas studies** (the "Modello" template's placeholder demo content is still present alongside — ignore it for domain questions).
 - [[Dottrina di Atto e Potenza]] (real distinction essence/esse) is the load-bearing concept — nearly every other page links to it.
-- [[sulla-verita-de-veritate]] and [[dizionario-interdisciplinare-scienza-fede]] remain **unreadable** with current extraction tools (image scans, no text layer) — but see [[ocr-pipeline-for-scanned-pdfs]] memory: `pdftoppm` + `tesseract -l ita+lat` is a verified working pipeline, not yet applied. This is the natural next front if continuing the paced ingestion plan.
+- [[sulla-verita-de-veritate]] and [[dizionario-interdisciplinare-scienza-fede]] remain **unreadable** with current extraction tools (image scans, no text layer) — but a verified working OCR pipeline exists (`pdftoppm` + `tesseract -l ita+lat`, tested 2026-07-25 on both files with high-quality results; recorded in this session's Claude Code memory, not a vault page), not yet applied. This is the natural next front if continuing the paced ingestion plan.
 
 ## Recent Changes
 

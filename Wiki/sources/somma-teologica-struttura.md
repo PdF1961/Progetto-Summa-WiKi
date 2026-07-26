@@ -3,7 +3,7 @@ type: source
 title: "Somma Teologica — bibliographic/structural entry"
 address: c-000038
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - source

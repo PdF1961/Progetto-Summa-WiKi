@@ -3,7 +3,7 @@ type: concept
 title: "Le Cinque Vie"
 address: c-000044
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - concept

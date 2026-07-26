@@ -3,7 +3,7 @@ type: source
 title: "Summa contro i Gentili — bibliographic/structural entry"
 address: c-000039
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - source

@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Wiki Index
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - meta
   - index
@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-07-25 | Total pages: ~51 | Sources ingested: 14 (13 new + 1 template)
+Last updated: 2026-07-26 | Total pages: ~64 content pages (78 incl. meta/index) | Sources ingested: 14 (13 new + 1 template), plus 6 primary-text deep-ingest batches from the Somma Teologica and Contra Gentiles (2026-07-26)
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 

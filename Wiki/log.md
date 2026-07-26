@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## 2026-07-26 | lint pass | post-6-batch health check
+
+- Trigger: routine lint after this session's 6 new deep-ingest pages (see the two batch-ingest entries below), per the "every 10-15 ingests" cadence in the vault's CLAUDE.md.
+- Full report: [[lint-report-2026-07-26]]
+- Fixed: (1) address counter desync — 6 addresses were assigned by hand rather than via the allocator, leaving `.vault-meta/address-counter.txt` stale; rebuilt via `--rebuild`. (2) `.raw/.manifest.json` address_map and both Summa PDFs' source entries hadn't been updated to reflect this session's new pages; fixed. (3) one real dead link in `wiki/hot.md` (pointed at a Claude Code memory file, not a vault page). (4) [[Wiki Map]]'s canvas was missing 7 pages (this session's 6 plus a pre-existing gap, [[cherry-picks]], from 2026-07-25) — regenerated with all 59 current content pages. (5) 8 pages had stale `updated:` frontmatter from substantive edits; bumped. (6) `wiki/index.md`'s summary header was stale.
+- No orphans, no frontmatter gaps, no filename collisions, no duplicate addresses.
+
+---
+
 ## 2026-07-26 | batch ingest | Summa contro i Gentili, 2 deep-ingests (batches 5-6, same-day follow-up)
 
 - Source: `.raw/S. Tommaso d'Aquino. - Somma contro i Gentili [ocr] [1975].pdf` (1,374 pp.), continuing the extended plan after the Somma Teologica's 4 batches

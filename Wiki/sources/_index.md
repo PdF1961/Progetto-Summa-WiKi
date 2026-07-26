@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Sources Index
-updated: 2026-04-07
+updated: 2026-07-26
 tags:
   - meta
   - index

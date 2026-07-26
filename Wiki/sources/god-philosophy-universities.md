@@ -3,7 +3,7 @@ type: source
 title: "God, Philosophy, Universities"
 address: c-000028
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - etica

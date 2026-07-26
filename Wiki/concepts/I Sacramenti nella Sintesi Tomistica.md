@@ -3,7 +3,7 @@ type: concept
 title: "I Sacramenti nella Sintesi Tomistica"
 address: c-000050
 created: 2026-07-25
-updated: 2026-07-25
+updated: 2026-07-26
 tags:
   - tomismo
   - concept
