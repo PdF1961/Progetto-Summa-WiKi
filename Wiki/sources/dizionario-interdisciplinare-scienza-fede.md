@@ -19,7 +19,7 @@ date_published: "2002 (Urbaniana University Press / Città Nuova); this file a 2
 url: ""
 confidence: high
 key_claims:
-  - "UPDATE 2026-07-26: this file is readable after all. The 'unreadable' verdict below only ever held for pdftotext/direct image viewing; the OCR pipeline verified in [[ocr-pipeline-for-scanned-pdfs]] (Claude Code session memory) works quickly here (~0.1s/page rasterization via PyMuPDF, this book's pages being normal A4 size unlike De Veritate's oversized scans) — a deep-ingest of the ANIMA, FINALITÀ, and LEGGI NATURALI entries is now on file at [[dizionario-anima-finalita-leggi-naturali]], which also documents the book's front-matter index (p.7, p.27-29, p.30-31) and confirms running page headers name the current entry directly, making it a genuinely navigable reference work once OCR'd."
+  - "UPDATE 2026-07-26: this file is readable after all. The 'unreadable' verdict below only ever held for pdftotext/direct image viewing; a verified OCR pipeline (PyMuPDF + tesseract -l ita+lat, recorded in this session's Claude Code memory, not a vault page) works quickly here (~0.1s/page rasterization, this book's pages being normal A4 size unlike De Veritate's oversized scans) — a deep-ingest of the ANIMA, FINALITÀ, and LEGGI NATURALI entries is now on file at [[dizionario-anima-finalita-leggi-naturali]], which also documents the book's front-matter index (p.7, p.27-29, p.30-31) and confirms running page headers name the current entry directly, making it a genuinely navigable reference work once OCR'd."
 raw_file: ".raw/Dizionario Interdisciplinare di Scienza e Fede (NP).pdf"
 ---
 

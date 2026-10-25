@@ -21,6 +21,15 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## 2026-07-26 | lint pass | post-OCR-ingest health check (second pass, same day)
+
+- Trigger: routine lint after the OCR-ingest session (De Veritate + Dizionario Interdisciplinare). Full report appended to [[lint-report-2026-07-26]] (second-pass section).
+- Fixed: (1) the exact same "memory-file link" mistake from earlier the same day recurred — `sulla-verita-de-veritate.md` and `dizionario-interdisciplinare-scienza-fede.md` each linked `[[ocr-pipeline-for-scanned-pdfs]]`, a Claude Code memory file, not a vault page; reworded as plain prose. (2) Wiki Map canvas missing the 2 new pages; regenerated (61/61).
+- Verified (not re-broken this time): address counter/manifest were already correctly updated during the ingest session itself — the lesson from the first pass was applied proactively.
+- Everything else re-checked clean: no orphans, no frontmatter gaps, no stale `updated:` fields, no filename collisions.
+
+---
+
 ## 2026-07-26 | OCR ingest | De Veritate + Dizionario Interdisciplinare (final front of the 4-text plan)
 
 - Sources: `.raw/S. Tommaso d'Aquino - Sulla Verità.pdf` (1,152pp, large-format scan) and `.raw/Dizionario Interdisciplinare di Scienza e Fede (NP).pdf` (2,339pp, 668MB print-to-PDF) — both previously logged as fully unreadable (no text layer, exceed the 100MB direct-viewing limit). This closes the last remaining front of the four-text paced ingestion plan from 2026-07-25/26.

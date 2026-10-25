@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-07-26 | Total pages: ~66 content pages (80 incl. meta/index) | Sources ingested: 14 (13 new + 1 template), plus 8 primary-text deep-ingest batches (2026-07-26): Somma Teologica ×4, Contra Gentiles ×2, De Veritate ×1, Dizionario Interdisciplinare ×1
+Last updated: 2026-07-26 | Total pages: ~66 content pages (81 incl. meta/index) | Sources ingested: 14 (13 new + 1 template), plus 8 primary-text deep-ingest batches (2026-07-26): Somma Teologica ×4, Contra Gentiles ×2, De Veritate ×1, Dizionario Interdisciplinare ×1
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 

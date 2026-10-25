@@ -20,7 +20,7 @@ date_published: "1256-1259 (composition, per Mandonnet; cross-checked against [[
 url: ""
 confidence: high
 key_claims:
-  - "UPDATE 2026-07-26: this file is readable after all. The 'unreadable' verdict below only ever held for pdftotext/direct image viewing; the OCR pipeline verified in [[ocr-pipeline-for-scanned-pdfs]] (Claude Code session memory) works well here, and a deep-ingest of qq.1, 16, 17, 24 is now on file at [[de-veritate-qq-1-16-17-24]]. This is also a genuine parallel Latin-Italian critical edition (Fernando Fiorentino, 2011), not Latin-only as an initial low-resolution OCR pass first suggested."
+  - "UPDATE 2026-07-26: this file is readable after all. The 'unreadable' verdict below only ever held for pdftotext/direct image viewing; a verified OCR pipeline (pdftoppm/PyMuPDF + tesseract -l ita+lat, recorded in this session's Claude Code memory, not a vault page) works well here, and a deep-ingest of qq.1, 16, 17, 24 is now on file at [[de-veritate-qq-1-16-17-24]]. This is also a genuine parallel Latin-Italian critical edition (Fernando Fiorentino, 2011), not Latin-only as an initial low-resolution OCR pass first suggested."
   - "De Veritate is the disputed question repeatedly cross-cited (as 'De ver.') across every other source in this vault — Garrigou-Lagrange, MacIntyre, and Gilson's bibliographies all reference it, most importantly q.1 for the classic definition of truth as adaequatio rei et intellectus, directly relevant to the truth-vs-pragmatism polemic already documented from essenza-e-attualita-del-tomismo."
 raw_file: ".raw/S. Tommaso d'Aquino - Sulla Verità.pdf"
 ---

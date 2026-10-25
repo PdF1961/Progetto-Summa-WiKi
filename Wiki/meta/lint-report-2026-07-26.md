@@ -19,6 +19,22 @@ Triggered after the two same-day sessions that added 6 primary-text deep-ingest 
 - Auto-fixed: 6
 - Needs review: 0
 
+---
+
+## Second pass, same day (post-OCR-ingest of De Veritate + Dizionario Interdisciplinare)
+
+Triggered by a third same-day session that OCR'd and deep-ingested [[de-veritate-qq-1-16-17-24]] and [[dizionario-anima-finalita-leggi-naturali]] (addresses c-000061, c-000062), closing the full four-text ingestion plan.
+
+**Summary**: pages scanned 81 (66 content + 15 meta/index); issues found 2; auto-fixed 2.
+
+**Dead link, same mistake as the first pass (real bug, fixed)**: despite this exact mistake being caught and fixed in `wiki/hot.md` earlier the same day (see above), the new session's own two source pages — `wiki/sources/sulla-verita-de-veritate.md` and `wiki/sources/dizionario-interdisciplinare-scienza-fede.md` — each introduced a fresh `[[ocr-pipeline-for-scanned-pdfs]]` link in their `key_claims` frontmatter, pointing at the same Claude Code memory file rather than a vault page. **Fixed** — reworded both as plain prose ("a verified OCR pipeline ... recorded in this session's Claude Code memory, not a vault page"), same treatment as the first fix. **Process note**: this is a recurring failure mode specific to sessions that discover something via cross-session memory and then summarize it into vault prose — worth a mental check ("is this bracket target actually a wiki page?") anytime a memory-derived fact gets written into frontmatter or body text.
+
+**Address counter / manifest: verified correct, not re-broken this time**: `c-000061`/`c-000062` were again assigned by hand, but the lesson from the first pass was applied proactively — `./scripts/allocate-address.sh --rebuild` and the `.raw/.manifest.json` update were both run at the end of the ingest session itself, before this lint pass started. Re-verified here rather than re-fixed: counter already at `63` (correct), no duplicate addresses among 46 addressed pages, `address_map` at 0 missing/0 extra/0 mismatched (same one pre-existing `DragonScale Memory.md` legacy gap as before, still out of scope).
+
+**Wiki Map canvas staleness, same pattern as the first pass (real gap, fixed)**: 2 new source pages were missing (61 pages should exist, canvas had 59). **Fixed** — regenerated with the same algorithm, now 61/61.
+
+**Everything else re-checked and clean**: no orphans beyond the two archival lint-report pages themselves; no frontmatter gaps; no stale `updated:` fields this time (all touched pages were dated correctly during the ingest session); no filename collisions. Full link sweep: 18 non-resolving targets, all pre-existing known false positives (template placeholders, spec-prose examples, the `dashboard.base` gap, the `wiki-map`/`wiki-map.canvas` checker limitation, and retrospective mentions inside the lint reports themselves — including this file's own `` `[[...]]` `` in prose, which is not a link).
+
 ## Address Allocator Desync (real bug, fixed)
 
 The 6 new source pages this session (`somma-teologica-de-deo-uno.md` through `contra-gentiles-libro-secondo.md`, addresses c-000055–c-000060) were assigned manually in frontmatter rather than via `./scripts/allocate-address.sh`, because the ingest work was done directly rather than through the allocator. This left `.vault-meta/address-counter.txt` at `55` — the next call to the allocator would have handed out `c-000055` again, colliding with an already-assigned page. **Fixed**: ran `./scripts/allocate-address.sh --rebuild`, which rescans all page frontmatter and resets the counter to the correct `61`. Verified no duplicate `address:` values exist across all 44 addressed pages.
